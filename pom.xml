@@ -27,6 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
+		<build-fileName>springboot-aws-deploy-service</build-fileName>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -53,6 +54,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springboot-aws-deploy-service</finalName>
 	</build>
 
 </project>
