@@ -10,7 +10,7 @@ public class TestController {
 	
 	@GetMapping("/test")
 	public String awsDeploymentTest() {
-		return "Hi Naresh in ECS Deploymemt is Completed";
+		return "Hi Naresh in ECS Deploymemt is Completed,Hello";
 	}
 
 }
